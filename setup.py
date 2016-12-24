@@ -12,7 +12,7 @@ def read(file_name):
 
 setup(
     name='funterface',
-    version='1.0.0',
+    version='1.0.1',
     author='Fergal Hainey',
     author_email='fergal+funterface@bfot.co.uk',
     description='A fun way to implement class based interfaces.',
