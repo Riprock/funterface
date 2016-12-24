@@ -10,7 +10,7 @@ def implementation():
     """Make a new funterface implementation."""
     @funterface.method('hey')
     def new_implementation(wot, hmm):
-        """Just return 'woo'."""
+        """Just return the args as a string."""
         return '{0} {1}'.format(wot, hmm)
     return new_implementation
 

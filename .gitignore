@@ -1,6 +1,8 @@
+*.egg-info
 *.pyc
 .cache
+.coverage
 .python-version
 .tox
 docs/_build
-*.egg-info
+htmlcov
