@@ -1,6 +1,9 @@
 Funterface
 ==========
 
+.. image:: https://travis-ci.org/Riprock/funterface.svg?branch=master
+    :target: https://travis-ci.org/Riprock/funterface
+
 funterface
     A portmanteau of *function* and *interface*. It’s also a more
     **fun** way of writing implementations of class interfaces.
@@ -35,3 +38,36 @@ something that looks more as if there were never classes you can use
 
     connection_implementation = funterface.partial(
         connection_getter, 'user1', 'password')
+
+Application of license
+----------------------
+
+Copyright 2016 Fergal Hainey
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Contributing
+------------
+
+I will be very happy to take contributions for features, bug fixes,
+documentation, or anything else via GitHub merge requests! I commit to
+reviewing all merge requests received within 2 weeks. Please note that
+all contributions shall fall under the same license as the project, and
+that Fergal Hainey will remain the only listed copyright holder for ease
+of maintenance and to make changing license easier if necessary.
+
+Merge requests must pass the build_. To run locally the same builds as
+Travis, use the `ferhai/local-travis`_ Docker image.
+
+.. _build: https://travis-ci.org/Riprock/funterface
+.. _ferhai/local-travis: https://hub.docker.com/r/ferhai/local-travis/
