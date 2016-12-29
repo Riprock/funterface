@@ -25,7 +25,7 @@ Funterface makes this easier.
 
     connection_implementation = connection_getter('user1', 'password')
     # other_project_plumbing.transaction calls get_connection on
-    # connection_getter.
+    # connection_implementation.
     transaction = other_project_plumbing.transaction(
         connection=connection_implementation)
 
